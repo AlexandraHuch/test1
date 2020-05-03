@@ -3,6 +3,17 @@
     <head>
         <title>Steffis Cookingblog</title>
         <style>
+            .container {
+              display: flex;
+              flex-wrap: wrap;
+            }
+            .container > div {
+              background-color: PeachPuff;
+              font-size: 20px;
+              margin: 20px;
+              padding: 20px;
+              width: 200px;
+            }
             button {
                background-color: PeachPuff;
             }
@@ -18,6 +29,12 @@
         <img src=ramen.jpg alt="Titlepicture" width="100%">
         <h1>Welcome to my Blog!</h1>
         <p>Hi everyone! Welcome to my official homepage.</p>
+
+        <div class="container">
+          <div> Mein 1. Rezept </div>
+          <div> Mein 2. Rezept </div>
+          <div> Mein 3. Rezept </div>
+        </div>
     </body>
     <aside>
       <h2> Please enter your contact details for more recipes. </h2>
@@ -25,8 +42,4 @@
       <input type="text" placeholder="Email-Adress" name="email">
       <button>Submit!</button>
     </aside>
-    <footer>
-      Kontaktdaten
-      Impressum
-    </footer>
 </html>
