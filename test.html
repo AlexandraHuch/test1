@@ -16,17 +16,48 @@
             }
             button {
                background-color: PeachPuff;
+               font-family: Verdana, "Lucida Sans Unicode", sans-serif;
             }
             button:hover {
                background-color: Coral;
             }
             body {
                background-color: FloralWhite;
+               font-family: Verdana, "Lucida Sans Unicode", sans-serif;
+            }
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              font-size: 20px;
+              background-color: black;
+            }
+            li {
+              float: left;
+            }
+            li a {
+              display: block;
+              color: white;
+              font-family: Verdana, "Lucida Sans Unicode", sans-serif;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+            li a:hover {
+              background-color: grey;
             }
         </style>
     </head>
     <body>
         <img src=ramen.jpg alt="Titlepicture" width="100%">
+
+        <ul>
+            <li><a href="#"> Home </a></li>
+            <li><a href="#"> Recipes </a></li>
+            <li><a href="#"> About us </a></li>
+        </ul>
+
         <h1>Welcome to my Blog!</h1>
         <p>Hi everyone! Welcome to my official homepage.</p>
 
@@ -34,10 +65,11 @@
           <div> Mein 1. Rezept </div>
           <div> Mein 2. Rezept </div>
           <div> Mein 3. Rezept </div>
+          <div> Mein 4. Rezept </div>
         </div>
     </body>
     <aside>
-      <h2> Please enter your contact details for more recipes. </h2>
+      <p> Please enter your contact details for more recipes. </p>
       <input type="text" placeholder="Full Name" name="name">
       <input type="text" placeholder="Email-Adress" name="email">
       <button>Submit!</button>
