@@ -1,0 +1,41 @@
+body {
+   background-color: #1C1C1C;
+   font-family: Verdana, "Lucida Sans Unicode", sans-serif;
+   color: white;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 20px;
+  background-color: black;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  font-family: Verdana, "Lucida Sans Unicode", sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: grey;
+}
+button {
+   background-color: PeachPuff;
+   font-family: Verdana, "Lucida Sans Unicode", sans-serif;
+}
+button:hover {
+   background-color: Coral;
+}
+footer {
+  background-color: grey;
+  color: white;
+  font-family: Verdana, "Lucida Sans Unicode", sans-serif;
+  padding: 14px 16px;
+}
